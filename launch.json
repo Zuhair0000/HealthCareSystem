@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "HealthcareSystem", // Change this to your main class
+      "classpath": [
+        "lib/mysql-connector-j-9.1.0.jar", // Update with the actual JAR filename
+        "bin"
+      ]
+    }
+  ]
+}
